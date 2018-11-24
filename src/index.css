@@ -91,3 +91,22 @@ button:hover {
   background-color: white;
 
 }
+
+.data-toggler input {
+  visibility: hidden;
+}
+
+.data-toggler label {
+  padding: 0.5rem 1.5rem;
+  border: 2px solid white;
+  border-radius: 4rem;
+}
+
+.data-toggler input:checked + label {
+  background-color: white;
+  color: black;
+}
+
+.data-toggler input:checked + label:after {
+  content: 'ed';
+}

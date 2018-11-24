@@ -5,7 +5,7 @@ export const BrowsePage = () => (
   <div>
     <h2>dis cool fgt</h2>
     <div>
-      <button>Load more data</button>
+      <Link to="/data">Load more data</Link>
     </div>
     <div>
       <label>Search for new recipes</label>
