@@ -1,15 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {
-  ReactComponent as Fingerprint
-} from '../assets/fingerprint-simple-outline.svg';
+import potato from '../assets/potato.webp';
 
 export const HomePage = () => (
   <>
-    <h1 className="gradient-spin">Datahole</h1>
+    <h1 className="gradient-spin">Datato.me</h1>
 
     <Link to="/browse" className="fingerprint">
-      <Fingerprint width="5rem" />
+      <img className="potato" src={potato} alt="" width={300} />
     </Link>
   </>
 );
