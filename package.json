@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "now alias && now rm ex01 --safe --yes"
+    "deploy": "now && now alias && now rm datahole --safe --yes"
   },
   "eslintConfig": {
     "extends": "react-app"
